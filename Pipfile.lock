@@ -8,69 +8,69 @@
         ],
         "requires": {},
         "hash": {
-            "sha256": "07358c45d88804403323dc88f9cc1d4bc23be3937d40e123a55c425b902f560e"
+            "sha256": "e4446a37a65fdca574724c35c79427651c606c4f7065a809779a01ae74ff8895"
         }
     },
     "default": {
-        "argparse": {
-            "hash": "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314",
-            "version": "==1.4.0"
+        "aloe": {
+            "hash": "sha256:2671488ffbde1850dcfd3d45c21ff2081a42dcbd0f34ac5dede66b8c1d5c2b82",
+            "version": "==0.1.12"
         },
-        "extras": {
-            "hash": "sha256:f689f08df47e2decf76aa6208c081306e7bd472630eb1ec8a875c67de2366e87",
-            "version": "==1.0.0"
+        "blessings": {
+            "hash": "sha256:edc5713061f10966048bf6b40d9a514b381e0ba849c64e034c4ef6c1847d3007",
+            "version": "==1.6"
         },
-        "fixtures": {
-            "hash": "sha256:2a551b0421101de112d9497fb5f6fd25e5019391c0fbec9bad591ecae981420d",
-            "version": "==3.0.0"
+        "click": {
+            "hash": "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d",
+            "version": "==6.7"
         },
-        "fuzzywuzzy": {
-            "hash": "sha256:8bfa38665247af7a4110643cf7b2dca9c46b8456aead28beae4f1fb2a53c8575",
-            "version": "==0.14.0"
+        "flask": {
+            "hash": "sha256:7f03bb2c255452444f7265eddb51601806e5447b6f8a2d50bbc77a654a14c118",
+            "version": "==0.12"
         },
-        "lettuce": {
-            "hash": "sha256:e9a86f98c7dbe860d9b51f8493a1f039663dcb05fddbad2e8c042ede33cc3c22",
-            "version": "==0.2.23"
+        "flask-sqlalchemy": {
+            "hash": "sha256:c5244de44cc85d2267115624d83faef3f9e8f088756788694f305a5d5ad137c5",
+            "version": "==2.1"
         },
-        "linecache2": {
-            "hash": "sha256:e78be9c0a0dfcbac712fe04fbf92b96cddae80b1b842f24248214c8496f006ef",
-            "version": "==1.0.0"
+        "future": {
+            "hash": "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb",
+            "version": "==0.16.0"
         },
-        "mock": {
-            "hash": "sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1",
-            "version": "==2.0.0"
+        "gherkin-official": {
+            "hash": "sha256:234721e12913fc147dc6e941a0bcb62f7b582c303605c359fb1c800517182e32",
+            "version": "==4.0.0"
         },
-        "pbr": {
-            "hash": "sha256:f5cf7265a80636ecff66806d13494cbf9d77a3758a65fd8b4d4d4bee81b0c375",
-            "version": "==1.10.0"
+        "itsdangerous": {
+            "hash": "sha256:cbb3fcf8d3e33df861709ecaf89d9e6629cff0a217bc2848f1b41cd30d360519",
+            "version": "==0.24"
         },
-        "python-mimeparse": {
-            "hash": "sha256:a295f03ff20341491bfe4717a39cd0a8cc9afad619ba44b77e86b0ab8a2b8282",
-            "version": "==1.6.0"
+        "Jinja2": {
+            "hash": "sha256:a7b7438120dbe76a8e735ef7eba6048eaf4e0b7dbc530e100812f8ec462a4d50",
+            "version": "==2.9.5"
         },
-        "python-subunit": {
-            "hash": "sha256:92d4e86e5fe6e9903f9cf4e1a378dc3e5f0b34138fadc110577e831c26ce46b4",
-            "version": "==1.2.0"
+        "MarkupSafe": {
+            "hash": "sha256:a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3",
+            "version": "==0.23"
         },
-        "six": {
-            "hash": "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
-            "version": "==1.10.0"
+        "nose": {
+            "hash": "sha256:9ff7c6cc443f8c51994b34a667bbcf45afd6d945be7477b52e97516fd17c53ac",
+            "version": "==1.3.7"
         },
-        "sure": {
-            "hash": "sha256:95bc7ce501b7d767a35f44de0c8ed7f9c7c5255c4b95b336ad0ae9e02f5401b3",
-            "version": "==1.4.1"
+        "psycopg2": {
+            "hash": "sha256:70490e12ed9c5c818ecd85d185d363335cc8a8cbf7212e3c185431c79ff8c05c",
+            "version": "==2.6.2"
         },
-        "testtools": {
-            "hash": "sha256:9b21a293cd33853956b1d3834c294d77a6ad0ab0eb1c077f858be433f0f225bb",
-            "version": "==2.2.0"
+        "repoze.lru": {
+            "hash": "sha256:0f7a323bf716d3cb6cb3910cd4fccbee0b3d3793322738566ecce163b01bbd31",
+            "version": "==0.6"
         },
-        "traceback2": {
-            "hash": "sha256:8253cebec4b19094d67cc5ed5af99bf1dba1285292226e98a31929f87a5d6b23",
-            "version": "==1.4.0"
+        "SQLAlchemy": {
+            "hash": "sha256:68fb40049690e567ebda7b270176f5abf0d53d9fbd515fec4e43326f601119b6",
+            "version": "==1.1.5"
         },
-        "unittest2": {
-            "hash": "sha256:13f77d0875db6d9b435e1d4f41e74ad4cc2eb6e1d5c824996092b3430f088bb8",
-            "version": "==1.1.0"
+        "Werkzeug": {
+            "hash": "sha256:c6f6f89124df0514d886782c658c3e12f2caaa94da34cee3fd82eebf4ebf052b",
+            "version": "==0.11.15"
         }
     },
     "develop": {}

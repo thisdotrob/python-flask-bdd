@@ -4,3 +4,7 @@ verify_ssl = true
 
 [packages]
 aloe = "*"
+nose = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
