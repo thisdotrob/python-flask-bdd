@@ -11,10 +11,12 @@ class Author(db.Model):
 class Deck(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
+    author_id = db.Column(db.Integer, db.ForeignKey('author.id'))
     author = db.relationship('Author', backref='decks')
 
 class Card(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String)
     answer = db.Column(db.String)
-    deck = db.relationship('Deck', backref='cards')    
+    deck_id = db.Column(db.Integer, db.ForeignKey('deck.id'))
+    deck = db.relationship('Deck', backref='cards')
