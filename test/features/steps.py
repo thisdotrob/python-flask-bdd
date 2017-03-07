@@ -2,6 +2,7 @@ from aloe import before, step, world
 from nose.tools import assert_equals
 from app.application import app
 from app.models import db, Author, Deck
+import json
 
 @before.all
 def before_all():
@@ -26,3 +27,8 @@ def when_i_retrieve_the_decks_by_author(self, author_name):
 @step(r'I should get a \'(.*)\' response')
 def then_i_should_get_a_status_code_response(self, expected_status_code):
     assert_equals(world.response.status_code, int(expected_status_code))
+
+@step(r'I should get the following data')
+def then_i_should_get_the_following_data(self):
+    for data, expected in zip(json.loads(world.response.data), self.hashes):
+        assert_equals(data, expected)
