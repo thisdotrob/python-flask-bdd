@@ -1,7 +1,7 @@
 from aloe import before, step, world
 from nose.tools import assert_equals
-from app.application import app
-from app.models import db, Author, Deck
+from app import app, db
+from app.models import Author, Deck, Card
 import json
 
 @before.all
