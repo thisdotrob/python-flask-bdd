@@ -1,4 +1,4 @@
-from app import db
+from codecards.db import db
 
 class Card(db.Model):
     id = db.Column(db.Integer, primary_key=True)
